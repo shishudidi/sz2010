@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .root {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: skyblue;
+      }
+      .bgc {
+        
+        display: flex;
+        justify-content: center;
+      }
+      .login-box-bodyWrap{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+      }
+       
+    </style>
+  </head>
+  <body>
+      <div class="root">
+        <div class="bgc">
+            <h1 class="title">管理注册系统</h1>     
+        </div>
+        <div class="login-box-bodyWrap">
+            <div class="login-box-body">
+                <form action="/reg/in" method="POST" style="text-align: center;">
+                   
+                    用户名: <input type="text"  placeholder="请输入你的账号" name="username">
+                    
+                </br>
+                    密&nbsp;&nbsp;&nbsp;&nbsp;码: <input type="password"   placeholder="请输入你的密码" name="pwd">
+                    
+                  </br>    </br>
+                      <button type="submit"  >注册</button>
+                   
+                  
+                </form>
+                 
+              </div>
+        </div>
+        
+      </div>
+    
+  </body>
+</html>
